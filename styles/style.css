@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');*/
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Rubik&display=swap');
 
 /* General */
 html {
@@ -15,8 +17,16 @@ body {
     margin:0 auto;
 }
 
+span:lang(mal){
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+
+div:lang(mal){
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 a{
@@ -113,6 +123,10 @@ ul.menu.lang{
     font-size: 0.7em;
 }
 
+.menu.lang{
+    padding-top: 5px;
+}
+
 .langTog{
     background-color: #fff;
     color: #214e2b;
@@ -151,7 +165,7 @@ ul.menu.lang{
     margin-right: auto;
 }
 p {
-  word-break: break-all;
+  word-break: normal;
 }
 
 .social_media_links li{
@@ -311,6 +325,19 @@ p#join-para{
 
 /* main content */
 
+
+.main-content ul{
+    list-style: none;
+}
+
+.main-content a{
+    color: darkgreen
+}
+
+.main-content a:hover{
+    color: #f23545;
+}
+
 #cv{
     padding-top: 10px;
 }
@@ -413,6 +440,14 @@ div.main-content{
 #contact-us li{
     padding-top: 10px;
 }
+
+#contact-us a{
+    color: darkgreen;
+}
+
+#contact-us a:hover{
+    color: brown;
+}
 /* Footer */
 #footer{
     background-color: #00a651;
@@ -480,6 +515,11 @@ div.main-content{
         text-align: center;
         padding-top: 10px;
     }
+    .menu.lang{
+        width: 98%;
+        text-align: center;
+        padding-top: 10px;
+    }
     .social_media_links{
         text-align: center;
     }
@@ -492,14 +532,6 @@ div.main-content{
         display: block;
         padding-bottom: 15px;
     }
-    
-/*
-    .banner-image img{
-        padding-top: 50px;
-        transform: scale(1.5);
-        padding-bottom: 50px;
-    }
-*/
     
     input#name{
         width: 70%;
