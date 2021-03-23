@@ -212,6 +212,7 @@ input[type=text], input[type=email]{
     margin: auto;
     border-radius: 10px;
     border: 2px solid #d26900;
+    font-family: inherit;
 }
 
 label{
@@ -240,6 +241,7 @@ textarea#suggest{
     height: 150px;
     border-radius: 10px;
     border: 2px solid #d26900;
+    font-family: inherit;
 }
 
 
