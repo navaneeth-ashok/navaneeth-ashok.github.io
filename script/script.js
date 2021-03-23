@@ -3,12 +3,12 @@ $(document).ready(function() {
     $('[lang="en"]').hide();
 
 $('#switchlangMal').click(function() {
-    $('[lang="mal"]').show();
+    $('[lang="ml"]').show();
     $('[lang="en"]').hide();
 });
     
 $('#switchlangEng').click(function() {
-    $('[lang="mal"]').hide();
+    $('[lang="ml"]').hide();
     $('[lang="en"]').show();
 });
 });
