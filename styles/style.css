@@ -408,6 +408,12 @@ div.main-content{
     background-color: #df5369
 }
 
+
+.download_links{
+    padding: 10px;
+    text-align: center;
+}
+
 /*Posters*/
 
 #poster ul{
