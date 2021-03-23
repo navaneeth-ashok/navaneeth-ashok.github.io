@@ -411,7 +411,7 @@ div.main-content{
 
 .download_links{
     padding: 10px;
-    text-align: center;
+    padding-left: 35px;
 }
 
 /*Posters*/
@@ -548,6 +548,12 @@ div.main-content{
     input#phone{
         width: 70%;
     }
+    
+    .download_links{
+        text-align: center;
+        padding: 10px;
+    }
+
 
     textarea#suggest{
         width: 85%;
