@@ -476,6 +476,12 @@ h2.blog-heading{
     }
 }
 
+@media screen and (max-width: 600px){
+    h2#site-name{
+        font-size: 1em;
+    }
+}
+
 @media screen and (max-width: 481px){
     
     .break4 {
@@ -494,9 +500,7 @@ h2.blog-heading{
         display: none;
     }
     
-    h2#site-name{
-        font-size: 1em;
-    }
+    
     
     .portfolio-column{
         flex: 1 0 100%;
