@@ -12,12 +12,12 @@
   src="https://code.jquery.com/jquery-3.6.0.slim.js"
   integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
   crossorigin="anonymous"></script>
-        <script asyn defer src="scripts/script.js" type="text/javascript"></script>
+        <script async defer src="scripts/script.js"></script>
     </head>
     <body>
         <div id="welcome-screen">
             <div class="page-container">
-                <h1>Hi<span class="nline"></span>I'm <span id="wlc_name">Navaneeth Ashok</span></h1>
+                <h1>Hi <span class="nline"></span>I'm <span id="wlc_name">Navaneeth Ashok</span></h1>
                 <ul id="wlc_list">
                     <li>developer.</li>
                     <li>designer.</li>
@@ -31,7 +31,7 @@
                 <h2 id="site-name"><a href="#">Navaneeth Ashok</a></h2>
                 <nav id="main-menu">
                     <h3 class="hidden">Main navigation</h3>
-                    <i alt="Menu Button" class="menu-btn" id="menu-btn-id"></i>
+                    <i class="menu-btn" id="menu-btn-id"></i>
                     <ul class="menu">
                         <li><a href="#about" class="nav-cls">about</a></li>
                         <li><a href="#portfolio" class="nav-cls">portfolio</a></li>
@@ -123,7 +123,7 @@
                                 <a class="portfolio-links" href="https://github.com/navaneeth-ashok/HTTP5101Assignment2Navaneeth">CCC 2020 Web App</a>
                             </div>
                         </div>
-                        <i alt="Unfold" class="unfold-btn" id="portfolio-unfold"></i>
+                        <i class="unfold-btn" id="portfolio-unfold"></i>
                     </div>
                 </div>
             </section>
@@ -148,7 +148,7 @@
                             <p>Sticky, or fixed, navigation is a popular design choice because it gives users persistent access to navigate the site. On the other hand, it takes up space on the page and sometimes covers content is a way that’s less than appealing.
                             A possible solution? Smart navigation...<a href="https://css-tricks.com/creating-a-smart-navbar-with-vanilla-javascript/">Read more.</a></p>
                         </section>
-                        <i alt="Unfold" class="unfold-btn" id="blog-unfold"></i>
+                        <i class="unfold-btn" id="blog-unfold"></i>
                     </div>
                 </div>
             </section>
@@ -159,17 +159,16 @@
                     <div id="contact-flex">
                         <div id="contact-form">
                             <form method="post" action="#">
-                                <h2 class="hidden">Contact Me</h2>
                                 <div class="input-container">
-                                    <i class="person-icon contact-icon" alt="Username"></i>
+                                    <i class="person-icon contact-icon"></i>
                                     <input class="input-field" type="text" placeholder="name" name="name">
                                 </div>
                                 <div class="input-container">
-                                    <i class="email-icon contact-icon" alt="Email"></i>
+                                    <i class="email-icon contact-icon"></i>
                                     <input class="input-field" type="text" placeholder="email" name="email">
                                 </div>
                                 <div class="input-container">
-                                    <i class="comment-icon contact-icon" alt="Comment"></i>
+                                    <i class="comment-icon contact-icon"></i>
                                     <textarea class="input-field-txt" id="cmt" name="cmt" rows="4" cols="50" placeholder="comment"></textarea>
                                 </div>
                                 <button type="submit" class="btn">Submit</button>
