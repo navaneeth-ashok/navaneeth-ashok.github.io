@@ -13,6 +13,15 @@
   integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
   crossorigin="anonymous"></script>
         <script async defer src="scripts/script.js"></script>
+        <script src="https://kwes.io/v2/kwes-script.js" defer></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0D9BQN4MG"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-H0D9BQN4MG');
+        </script>
     </head>
     <body>
         <div id="welcome-screen">
@@ -163,18 +172,18 @@
                     <!--flex box with 3 items-->
                     <div id="contact-flex">
                         <div id="contact-form">
-                            <form method="post" action="#">
+                            <form method="post" action="https://kwes.io/api/foreign/forms/pu6uTuXvraak2JD7WYjV" class="kwes-form">
                                 <div class="input-container">
                                     <i class="person-icon contact-icon"></i>
-                                    <input class="input-field" type="text" placeholder="name" name="name">
+                                    <input class="input-field" type="text" placeholder="name" name="name" rules="required|max:255">
                                 </div>
                                 <div class="input-container">
                                     <i class="email-icon contact-icon"></i>
-                                    <input class="input-field" type="text" placeholder="email" name="email">
+                                    <input class="input-field" type="text" placeholder="email" name="email" rules="required|max:255">
                                 </div>
                                 <div class="input-container">
                                     <i class="comment-icon contact-icon"></i>
-                                    <textarea class="input-field-txt" id="cmt" name="cmt" rows="4" cols="50" placeholder="comment"></textarea>
+                                    <textarea class="input-field-txt" id="cmt" name="cmt" rows="4" cols="50" placeholder="comment" rules="required|max:255"></textarea>
                                 </div>
                                 <button type="submit" class="btn">Submit</button>
                             </form>
