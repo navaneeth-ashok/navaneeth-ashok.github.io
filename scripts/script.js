@@ -13,13 +13,13 @@ $(document).ready(function() {
     
     $('#menu-btn-id').click(function(){
         $('#menu-btn-id').toggleClass('menu-btn-open');
-        var text = $('#site-name a').text();
+//        var text = $('#site-name a').text();
 //        console.log(text);
-        if(text == "N A"){
-            $('#site-name a').text("Navaneeth Ashok");  
-        } else {
-            $('#site-name a').text("N A");
-        }
+//        if(text == "N A"){
+//            $('#site-name a').text("Navaneeth Ashok");  
+//        } else {
+//            $('#site-name a').text("N A");
+//        }
         $('.menu').toggle();
         $('.menu').addClass('menu-block li');
         
