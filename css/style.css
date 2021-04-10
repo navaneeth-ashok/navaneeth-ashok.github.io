@@ -412,7 +412,7 @@ h2.blog-heading{
         background: url(../images/menu_white_48dp.svg);
         width: 48px;
         height: 48px;
-        transition: all 0.4s linear;
+        transition: all 0.2s linear;
     }
     
     #site-name{
@@ -438,7 +438,7 @@ h2.blog-heading{
 
     .menu{
         display: none;
-        transition: all 1s linear;
+        transition: all 0.3s linear;
     }
 
     .menu-block li{
@@ -492,6 +492,10 @@ h2.blog-heading{
         text-align: center;
         padding-left: 0;
         padding-right: 0;
+    }
+    .social-media.icons{
+        width: 60px;
+        height: 60px;
     }
     .about-image{
         display: none;
