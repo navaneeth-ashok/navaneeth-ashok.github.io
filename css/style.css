@@ -446,6 +446,9 @@ h2.blog-heading{
         text-align: right;
         padding: 5px;
     }
+    .menu li:last-child{
+    padding: 5px;
+    }
 }
 
 @media screen and (max-width: 768px){
