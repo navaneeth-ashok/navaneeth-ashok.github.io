@@ -4,9 +4,11 @@ $(document).ready(function() {
     $(window).bind('scroll', function() {
         if ($(window).scrollTop() > navpos.top) {
             $('#header').addClass('header-fixed');
+            $('body').addClass('body-padding');
         }
         else {
             $('#header').removeClass('header-fixed');
+            $('body').removeClass('body-padding');
         }
     });
     window.addEventListener("hashchange", function() { scrollBy(0, -100) })

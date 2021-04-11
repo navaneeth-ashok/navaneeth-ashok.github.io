@@ -64,6 +64,10 @@ h1{
     width: 100%;
 }
 
+.body-padding{
+    padding-top:100px;
+}
+
 #header{
     background-color: #232a34;
     margin: 0;
@@ -480,6 +484,10 @@ h2.blog-heading{
 }
 
 @media screen and (max-width: 481px){
+    
+    .body-padding{
+        padding-top:100px;
+    }
     
     .break4 {
         flex-basis: 100%;
