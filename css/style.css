@@ -16,6 +16,7 @@ body {
 /*Welcome Screen*/
 #welcome-screen{
     background-color: #232a34;
+    height: 100vh;
 }
 
 .page-container {
