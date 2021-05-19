@@ -403,10 +403,10 @@ h2.blog-heading{
 
 #footer p{
     color: #66686f;
-    font-size: 1.5em;
     padding-top: 50px;
     margin: 0;
-    font:normal 1.5em 'Rubik',sans-serif;
+    font:normal 1em 'Rubik',sans-serif;
+    text-align: center
 }
 
 @media screen and (max-width: 1030px){
