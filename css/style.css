@@ -153,7 +153,7 @@ nav#main-menu{
 /*About*/
 
 .about-para a{
-    color: #369cd8;
+    color: #1d1e51;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -379,8 +379,8 @@ h2.blog-heading{
 
 .btn{
     background: #e2e1e1;
-    color: #66686f;
-    border: 2px solid #66686f;
+    color: #4a4b4d;
+    border: 2px solid #4a4b4d;
     width: 30.5%;
     height: 40px;
     font-size: 1.2em;
@@ -402,7 +402,7 @@ h2.blog-heading{
 }
 
 #footer p{
-    color: #66686f;
+    color: #a7a7a7;
     padding-top: 50px;
     margin: 0;
     font:normal 1em 'Rubik',sans-serif;
