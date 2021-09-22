@@ -86,11 +86,7 @@ function Contact() {
                 </button>
               </div>
               <div
-                className={
-                  showInfo === false
-                    ? null
-                    : "text-center form-result exp__card"
-                }
+                className={showInfo === false ? null : "form-result exp__card"}
               >
                 {showInfo ? (
                   mailOk ? (
