@@ -339,6 +339,10 @@ h3 {
   color: rgb(31 175 202);
 }
 
+.form-result {
+  text-align: center;
+}
+
 .skill__item img {
   filter: invert(98%) sepia(0%) saturate(2%) hue-rotate(144deg) brightness(84%)
     contrast(97%);
