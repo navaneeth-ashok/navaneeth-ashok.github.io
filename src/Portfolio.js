@@ -57,37 +57,16 @@ function Portfolio() {
                 restaurant such as About Us, Contact, Locations are posted.
               </div>
             }
-            externalLink="https://iambored.navaneeth.dev/"
-            githubLink="https://iambored.navaneeth.dev/"
+            externalLink="https://foodappnav.azurewebsites.net/"
+            githubLink="https://github.com/navaneeth-ashok/RestaurantApplication"
             techList={["ASP.NET", "Entity Framework", "Ajax", "MsSQL", "Azure"]}
-          />
-
-          <Project
-            projectTitle="Covid-19 Helpdesk for Local Government"
-            altText="helpdesk screenshot"
-            allign="text-right"
-            position="right"
-            imageSrcURL={helpdesk}
-            projectDescription={
-              <div>
-                A website for keeping track of covid related activities
-                happening in my hometown in India. Developed as a one-stop
-                solution for finding contact information of the covid helpdesk
-                members, volunteers, open provision stores, and emergency
-                services in the locality like ambulance, oxygen van, police, and
-                fire station.
-              </div>
-            }
-            externalLink="https://iambored.navaneeth.dev/"
-            githubLink="https://iambored.navaneeth.dev/"
-            techList={["CSS", "HTML", "JS", "PWA", "Dark Mode"]}
           />
 
           <Project
             projectTitle="Kalam Youth Forum"
             altText="web-app screenshot"
-            allign="text-left"
-            position="left"
+            allign="text-right"
+            position="right"
             imageSrcURL={youthforum}
             projectDescription={
               <div>
@@ -104,8 +83,35 @@ function Portfolio() {
                 <span className="important">PWA</span> as well.
               </div>
             }
-            externalLink="https://iambored.navaneeth.dev/"
-            techList={["ASP.NET", "Entity Framework", "Ajax", "MsSQL", "Azure"]}
+            externalLink="https://kalamyouthforum.azurewebsites.net/"
+            techList={[
+              ".NET Core",
+              "Entity Framework",
+              "Ajax",
+              "MsSQL",
+              "Azure",
+            ]}
+          />
+
+          <Project
+            projectTitle="Covid-19 Helpdesk for Local Government"
+            altText="helpdesk screenshot"
+            allign="text-left"
+            position="left"
+            imageSrcURL={helpdesk}
+            projectDescription={
+              <div>
+                A website for keeping track of covid related activities
+                happening in my hometown in India. Developed as a one-stop
+                solution for finding contact information of the covid helpdesk
+                members, volunteers, open provision stores, and emergency
+                services in the locality like ambulance, oxygen van, police, and
+                fire station.
+              </div>
+            }
+            externalLink="https://navaneeth-ashok.github.io/covidHelpdeskPanchayat/"
+            githubLink="https://github.com/navaneeth-ashok/covidHelpdeskPanchayat"
+            techList={["CSS", "HTML", "JS", "PWA", "Dark Mode"]}
           />
         </div>
         <h3 className="text-center" style={{ marginTop: "100px" }}>

@@ -13,6 +13,7 @@ function SmallProject(props) {
           <a
             href={props.githubLink}
             aria-label="Github Link"
+            title="GitHub"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -24,6 +25,7 @@ function SmallProject(props) {
             href={props.externalLink}
             aria-label="External Link"
             rel="noopener noreferrer"
+            title="External Link"
             target="_blank"
           >
             <img src={extLogo} alt="" className="project__link-icon" />

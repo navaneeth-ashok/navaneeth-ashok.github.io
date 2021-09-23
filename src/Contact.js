@@ -132,13 +132,13 @@ function Contact() {
                 ) : null}
               </div>
               {showMail ? (
-                <div className="text-center">
-                  Feel free to contact over mail as well{" "}
+                <div className="text-center mail">
+                  If you prefer email, Say Hi at{" "}
                   <a
                     className="hello"
                     href="mailto:hi@navaneeth.dev?subject=Hi Navaneeth"
                   >
-                    <span className="contact__say-hello">Say Hi</span>
+                    <span className="contact__say-hello">hi@navaneeth.dev</span>
                   </a>
                 </div>
               ) : null}
