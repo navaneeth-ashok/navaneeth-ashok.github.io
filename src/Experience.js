@@ -133,6 +133,10 @@ function Experience() {
                       Co-authored a patent in USPTO (&nbsp;
                       <a
                         href="https://www.patentguru.com/US2021165899A1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Patent Link"
+                        aria-label="Patent Link"
                         style={{
                           textDecoration: "underline",
                           color: "inherit",

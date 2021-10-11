@@ -1,8 +1,10 @@
 import githubLogo from "./images/icons8-github-squared.svg";
 import linkedinLogo from "./images/icons8-linkedin.svg";
 import px500Logo from "./images/icons8-500px.svg";
-import authorPic from "./images/author_image.jpg";
+import authorPic from "./images/portfolio_update1.jpg";
 import deviantLogo from "./images/icons8-deviantart.svg";
+import resumeLogo from "./images/icons8-resume-64.png";
+import resumeFile from "./NavaneethAshokResume.pdf";
 function About() {
   return (
     <section id="about">
@@ -55,7 +57,13 @@ function About() {
             <img src={authorPic} alt="author" />
             <ul className="social-media-icons">
               <li>
-                <a href="https://github.com/navaneeth-ashok">
+                <a
+                  href="https://github.com/navaneeth-ashok"
+                  target="_blank"
+                  aria-label="GitHub Profile"
+                  rel="noopener noreferrer"
+                  title="GitHub Profile"
+                >
                   <img
                     src={githubLogo}
                     alt="github logo"
@@ -65,7 +73,13 @@ function About() {
               </li>
 
               <li>
-                <a href="https://500px.com/p/navaneeth_ashok/">
+                <a
+                  href="https://500px.com/p/navaneeth_ashok/"
+                  target="_blank"
+                  aria-label="500px"
+                  rel="noopener noreferrer"
+                  title="500px"
+                >
                   <img
                     src={px500Logo}
                     alt="500px logo"
@@ -74,7 +88,13 @@ function About() {
                 </a>
               </li>
               <li>
-                <a href="https://www.deviantart.com/navaneethsketch">
+                <a
+                  href="https://www.deviantart.com/navaneethsketch"
+                  target="_blank"
+                  aria-label="DeviantArt"
+                  rel="noopener noreferrer"
+                  title="DeviantArt"
+                >
                   <img
                     src={deviantLogo}
                     alt="deviant logo"
@@ -83,10 +103,31 @@ function About() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/navaneeth-ashok">
+                <a
+                  href="https://www.linkedin.com/in/navaneeth-ashok"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+                >
                   <img
                     src={linkedinLogo}
                     alt="linkedin logo"
+                    className="social-media icons"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={resumeFile}
+                  target="_blank"
+                  aria-label="Resume / CV"
+                  rel="noopener noreferrer"
+                  title="Resume / CV"
+                >
+                  <img
+                    src={resumeLogo}
+                    alt="resume logo"
                     className="social-media icons"
                   />
                 </a>

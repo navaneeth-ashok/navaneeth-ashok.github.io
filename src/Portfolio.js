@@ -4,6 +4,7 @@ import bored from "./images/bored.jpg";
 import firehouse from "./images/firehouse.jpg";
 import helpdesk from "./images/covidhelpdesk.jpg";
 import youthforum from "./images/youthforum.jpg";
+import kalamCaseStudy from "./CaseStudyKalamYouthForumNavaneeth.pdf";
 
 function Portfolio() {
   return (
@@ -80,7 +81,20 @@ function Portfolio() {
                 web-app also offers a blood donation page on which guests can
                 search for matching donors in case of an emergency. The
                 blood-donation feature can be installed in mobile devices as a{" "}
-                <span className="important">PWA</span> as well.
+                <span className="important">PWA</span> as well. You can read
+                more about the project from this detailed{" "}
+                <a
+                  href={kalamCaseStudy}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    textDecoration: "underline",
+                    color: "inherit",
+                  }}
+                >
+                  case study
+                </a>
+                .
               </div>
             }
             externalLink="https://kalamyouthforum.azurewebsites.net/"

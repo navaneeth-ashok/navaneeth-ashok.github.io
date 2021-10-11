@@ -276,7 +276,7 @@ p {
 }
 
 .about-image {
-  flex: 1 0 0;
+  flex: 1.2 0 0;
 }
 
 ul.social-media-icons {
@@ -321,6 +321,10 @@ ul.social-media-icons {
 }
 
 .social-media-icons li:nth-child(4) img {
+  width: 48px;
+}
+
+.social-media-icons li:nth-child(5) img {
   width: 48px;
 }
 
@@ -657,9 +661,9 @@ h2.blog-heading {
   margin-bottom: 30px;
   padding: 15px;
   font: normal 16px/1.2 "Rubik", sans-serif;
-  border: 2px solid #313131;
+  border: 2px solid #363636;
   border-radius: 5px;
-  background-color: #313131;
+  background-color: #363636;
   color: #eeeeee;
 }
 
@@ -669,9 +673,9 @@ h2.blog-heading {
   height: 108px;
   padding: 15px;
   font: normal 16px/1.2 "Rubik", sans-serif;
-  border: 2px solid #313131;
+  border: 2px solid #363636;
   border-radius: 5px;
-  background-color: #313131;
+  background-color: #363636;
 }
 
 .contact-icon {
@@ -706,16 +710,16 @@ h2.blog-heading {
 
 ::-webkit-input-placeholder {
   /* Edge */
-  color: rgb(173, 173, 173);
+  color: rgb(201, 201, 201);
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: rgb(173, 173, 173);
+  color: rgb(201, 201, 201);
 }
 
 ::placeholder {
-  color: rgb(173, 173, 173);
+  color: rgb(201, 201, 201);
 }
 
 #contact-form {
@@ -743,9 +747,9 @@ div.text-center {
   display: block;
   margin: 0 auto;
   width: 170px;
-  border: 1px solid #313131;
+  border: 1px solid #363636;
   margin-top: 10px;
-  background-color: #313131;
+  background-color: #363636;
   padding: 10px;
   text-decoration: none;
   color: rgb(201, 201, 201);
@@ -771,9 +775,9 @@ div.text-center {
 }
 
 .btn {
-  background: #313131;
+  background: #363636;
   color: rgb(173, 173, 173);
-  border: 2px solid #313131;
+  border: 2px solid #363636;
   width: 30.5%;
   height: 40px;
   font-size: 1em;

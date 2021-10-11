@@ -15,6 +15,7 @@ function Project(props) {
           href={props.externalLink}
           aria-label="External Link"
           rel="noopener noreferrer"
+          title="External Link"
           target="_blank"
         >
           <img
@@ -36,8 +37,9 @@ function Project(props) {
           {props.githubLink != null ? (
             <a
               href={props.githubLink}
-              aria-label="Github Link"
+              aria-label="GitHub Link"
               rel="noopener noreferrer"
+              title="GitHub Link"
               target="_blank"
             >
               <img src={githubLogo} alt="" className="project__link-icon" />
@@ -48,6 +50,7 @@ function Project(props) {
               href={props.externalLink}
               aria-label="External Link"
               rel="noopener noreferrer"
+              title="External Link"
               target="_blank"
             >
               <img src={extLogo} alt="" className="project__link-icon" />
