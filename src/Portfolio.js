@@ -5,6 +5,7 @@ import firehouse from "./images/firehouse.jpg";
 import helpdesk from "./images/covidhelpdesk.jpg";
 import youthforum from "./images/youthforum.jpg";
 import kalamCaseStudy from "./CaseStudyKalamYouthForumNavaneeth.pdf";
+import canadaSalary from "./images/canadaSalaryPreview.jpg";
 
 function Portfolio() {
   return (
@@ -28,9 +29,12 @@ function Portfolio() {
                 suggestions are shown in card format, with Spotify and Youtube
                 integration. This web-app is mobile friendly and can be
                 installed in devices as a <span className="important">PWA</span>
-                .
+                . An <span className="important"> Angular</span> based version
+                of the app exists as well, the link to which is given in Github
+                link below.
               </div>
             }
+            githubLink="https://github.com/navaneeth-ashok/IamBoredAngular/"
             externalLink="https://iambored.navaneeth.dev/"
             techList={[
               "ReactJS",
@@ -43,24 +47,46 @@ function Portfolio() {
           />
 
           <Project
-            projectTitle="Firehouse Pizzeria"
-            altText="firehouse screenshot"
+            projectTitle="CS & Tech Job Salary Insights Canada"
+            altText="salary app screenshot"
             allign="text-left"
             position="left"
-            imageSrcURL={firehouse}
+            imageSrcURL={canadaSalary}
             projectDescription={
               <div>
-                Built on <span className="important">ASP.NET</span> this web app
-                can be used by users to book table, order food and pay for the
-                same using a payment gateway. The website admin can manage the
-                orders, bookings, menu, billing etc. The web app also functions
-                as a homepage for the restaurant where the details about the
-                restaurant such as About Us, Contact, Locations are posted.
+                Salary Insights app for the people working in computer science
+                and tech jobs in Canada. The data is fetched from
+                r/cscareerquestionsCAD subreddit using a python script and the
+                data is stored in a MongoDB database. An ExpressJS API service
+                is then created to serve the data in JSON format for the
+                frontend which is developed in Angular. The readme file provided
+                in the{" "}
+                <a
+                  href="https://github.com/navaneeth-ashok/salarySurveyClient"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    textDecoration: "underline",
+                    color: "inherit",
+                  }}
+                >
+                  Github
+                </a>{" "}
+                repository has detailed information and links to the associated
+                csv converter and backend repository.
               </div>
             }
-            externalLink="https://foodappnav.azurewebsites.net/"
-            githubLink="https://github.com/navaneeth-ashok/RestaurantApplication"
-            techList={["ASP.NET", "Entity Framework", "Ajax", "MsSQL", "Azure"]}
+            externalLink="http://salary-app.navaneeth.dev/"
+            githubLink="https://github.com/navaneeth-ashok/salarySurveyClient"
+            techList={[
+              "Angular",
+              "ExpressJS",
+              "MongoDB",
+              "Node",
+              "MEAN",
+              "Python",
+              "Google Cloud Platform",
+            ]}
           />
 
           <Project
@@ -97,7 +123,7 @@ function Portfolio() {
                 .
               </div>
             }
-            externalLink="https://kalamyouthforum.azurewebsites.net/"
+            githubLink="https://github.com/navaneeth-ashok/kalamYouthForum"
             techList={[
               ".NET Core",
               "Entity Framework",
@@ -108,10 +134,30 @@ function Portfolio() {
           />
 
           <Project
-            projectTitle="Covid-19 Helpdesk for Local Government"
-            altText="helpdesk screenshot"
+            projectTitle="Firehouse Pizzeria"
+            altText="firehouse screenshot"
             allign="text-left"
             position="left"
+            imageSrcURL={firehouse}
+            projectDescription={
+              <div>
+                Built on <span className="important">ASP.NET</span> this web app
+                can be used by users to book table, order food and pay for the
+                same using a payment gateway. The website admin can manage the
+                orders, bookings, menu, billing etc. The web app also functions
+                as a homepage for the restaurant where the details about the
+                restaurant such as About Us, Contact, Locations are posted.
+              </div>
+            }
+            githubLink="https://github.com/navaneeth-ashok/RestaurantApplication"
+            techList={["ASP.NET", "Entity Framework", "Ajax", "MsSQL", "Azure"]}
+          />
+
+          <Project
+            projectTitle="Covid-19 Helpdesk for Local Government"
+            altText="helpdesk screenshot"
+            allign="text-right"
+            position="right"
             imageSrcURL={helpdesk}
             projectDescription={
               <div>
