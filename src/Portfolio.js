@@ -1,11 +1,12 @@
 import Project from "./Project";
-import SmallProject from "./SmallProject";
 import bored from "./images/bored.jpg";
 import firehouse from "./images/firehouse.jpg";
 import helpdesk from "./images/covidhelpdesk.jpg";
 import youthforum from "./images/youthforum.jpg";
 import kalamCaseStudy from "./CaseStudyKalamYouthForumNavaneeth.pdf";
 import canadaSalary from "./images/canadaSalaryPreview.jpg";
+import f1gif from "./images/formula1-2022-app.gif";
+import photoport from "./images/photography.jpg";
 
 function Portfolio() {
   return (
@@ -15,10 +16,33 @@ function Portfolio() {
 
         <div className="grid-portfolio">
           <Project
-            projectTitle="I am Bored"
-            altText="iambored screenshot"
+            projectTitle="Photography Portfolio"
+            altText="portfolio screenshot"
             allign="text-right"
             position="right"
+            imageSrcURL={photoport}
+            projectDescription={
+              <div>
+                A small personal portfolio website to showcase my street
+                photography journey. The frontend is powered by{" "}
+                <span className="important">Next.js</span> which offers server
+                side rendering which is accessible and has smaller payload. The
+                backend is powered by SanityIO which offers one of the easiest
+                to use experience for creating schemas and offers quite a good
+                amount of features in its free tier. One good thing with
+                SanityIO is that the images are served over their CDN, which
+                makes my deployment really compact and offers high availability
+                and lower latency while serving the images.
+              </div>
+            }
+            externalLink="https://www.navaneethashok.com/"
+            techList={["NextJS", "SanityIO", "Vercel"]}
+          />
+          <Project
+            projectTitle="I am Bored"
+            altText="iambored screenshot"
+            allign="text-left"
+            position="left"
             imageSrcURL={bored}
             projectDescription={
               <div>
@@ -29,9 +53,17 @@ function Portfolio() {
                 suggestions are shown in card format, with Spotify and Youtube
                 integration. This web-app is mobile friendly and can be
                 installed in devices as a <span className="important">PWA</span>
-                . An <span className="important"> Angular</span> based version
-                of the app exists as well, the link to which is given in Github
-                link below.
+                . An <span className="important"> Angular</span> version of the
+                app is deployed here,{" "}
+                <a
+                  href="https://angular.iambored.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__links__highlight"
+                >
+                  IamBoredAngular
+                </a>
+                {"."}
               </div>
             }
             githubLink="https://github.com/navaneeth-ashok/IamBoredAngular/"
@@ -42,8 +74,34 @@ function Portfolio() {
               "Node.JS",
               "PWA",
               "Google Cloud Platform",
-              "Heroku",
             ]}
+          />
+
+          <Project
+            projectTitle="F1 2022 Schedule"
+            altText="f1 app screenshot"
+            allign="text-right"
+            position="right"
+            imageSrcURL={f1gif}
+            projectDescription={
+              <div>
+                A single page Formula1 Schedule web-app made with
+                <span className="important"> React</span> with{" "}
+                <span className="important">PWA</span> offline functionality.
+                The app is hosted in Firebase with CICD using GitHub Actions.
+                The app is designed to provide a quick glance into the F1 2022
+                Calender without using the bloated official app. The app is
+                designed primarily for mobile devices and offers smooth
+                horizontal scroll. On load the user will be automatically shown
+                the schedule of the ongoing race or the next race that will
+                happen. The schedule of the race events are locked onto the user
+                locale and thus the time shown will be local to the user's
+                timezone.
+              </div>
+            }
+            githubLink="https://github.com/navaneeth-ashok/formula1-2022-calendar"
+            externalLink="https://formula1-2022.web.app"
+            techList={["ReactJS", "Firebase", "PWA"]}
           />
 
           <Project
@@ -65,15 +123,14 @@ function Portfolio() {
                   href="https://github.com/navaneeth-ashok/salarySurveyClient"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    textDecoration: "underline",
-                    color: "inherit",
-                  }}
+                  className="project__links__highlight"
                 >
                   Github
                 </a>{" "}
                 repository has detailed information and links to the associated
-                csv converter and backend repository.
+                csv converter and backend repository. The app is rendered on the
+                server using{" "}
+                <span className="important">Angular Universal</span>.
               </div>
             }
             externalLink="http://salary-app.navaneeth.dev/"
@@ -86,6 +143,7 @@ function Portfolio() {
               "MEAN",
               "Python",
               "Google Cloud Platform",
+              "SSR",
             ]}
           />
 
@@ -113,10 +171,7 @@ function Portfolio() {
                   href={kalamCaseStudy}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    textDecoration: "underline",
-                    color: "inherit",
-                  }}
+                  className="project__links__highlight"
                 >
                   case study
                 </a>
@@ -172,50 +227,6 @@ function Portfolio() {
             externalLink="https://navaneeth-ashok.github.io/covidHelpdeskPanchayat/"
             githubLink="https://github.com/navaneeth-ashok/covidHelpdeskPanchayat"
             techList={["CSS", "HTML", "JS", "PWA", "Dark Mode"]}
-          />
-        </div>
-        <h3 className="text-center" style={{ marginTop: "100px" }}>
-          Other Projects
-        </h3>
-        <div className="other-projects-grid">
-          <SmallProject
-            title="Election Landing Page"
-            desc="A landing webpage for a candidate contesting in an election with multilingual support"
-            techList={["HTML", "CSS", "JS", "jQuery", "Responsive"]}
-            githubLink="https://github.com/navaneeth-ashok/drprameeladevi4pala/tree/gh-pages"
-            externalLink="https://navaneeth-ashok.github.io/drprameeladevi4pala/"
-          />
-          <SmallProject
-            title="Javascript Tutorial"
-            desc="An interactive Javascript tutorial page explaining concepts about Javascript Array"
-            techList={["HTML", "CSS", "JS", "jQuery", "Responsive"]}
-            githubLink="https://github.com/navaneeth-ashok/javascriptTutorialPage"
-            externalLink="https://navaneeth-ashok.github.io/javascriptTutorialPage/"
-          />
-          <SmallProject
-            title="F1™ 2021 Race Schedule"
-            desc="An F1 race calendar with countdown to races and schedule shown in regional as well as UTC time"
-            techList={["HTML", "CSS", "JS", "jQuery", "Responsive"]}
-            githubLink="https://github.com/navaneeth-ashok/f1schedule2021"
-            externalLink="https://navaneeth-ashok.github.io/f1schedule2021/"
-          />
-          <SmallProject
-            title="Support Ticketing System"
-            desc=".NET Core based ticketing software containing options to Create, Assign, Delete support tickets. Includes XML based user auth instead of .NET Identity"
-            techList={[".NET Core", "XML", "Bootstrap", "Responsive"]}
-            githubLink="https://github.com/navaneeth-ashok/SupportTicketingSystem"
-          />
-          <SmallProject
-            title="500px Profile"
-            desc="This is where I post most of my captures, includes street & landscape photography, and even a few attempts at macro."
-            techList={["Photography"]}
-            externalLink="https://500px.com/p/navaneeth_ashok"
-          />
-          <SmallProject
-            title="Deviant Art Profile"
-            desc="Fairly new to deviantart, and my profile contains few minimalist landscapes with my trusted overland vehicle."
-            techList={["Digital Art"]}
-            externalLink="https://www.deviantart.com/navaneethsketch"
           />
         </div>
       </div>

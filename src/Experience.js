@@ -5,6 +5,42 @@ function Experience() {
         <h2 className="section-headings">Experience</h2>
         <div className="grid-container">
           <div className="exp__year">
+            <h3>Nov 2021 - Present</h3>
+          </div>
+          <div className="exp__card">
+            <h3>Frontend Web Developer & DevOps Engineer</h3>
+            <h4>Cetaris Canada Inc</h4>
+            <ul className="exp_ul no_bullet">
+              <li>
+                <ul>
+                  <li>
+                    <div className="exp_title">
+                      Working on Angular for developing micro-front-end for
+                      micro-services.
+                    </div>
+                  </li>
+                  <li>
+                    <div className="exp_title">
+                      Working on Azure DevOps in creating CI/CD pipelines.
+                    </div>
+                  </li>
+                  <li>
+                    <div className="exp_title">
+                      Experienced in packaging .NET micro-services and Angular
+                      web-apps into docker containers.
+                    </div>
+                  </li>
+                  <li>
+                    <div className="exp_title">
+                      Experienced in container orchestration using Kubernetes,
+                      and Infrastructure as Code using Terraform.
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div className="exp__year">
             <h3>2021 - Present</h3>
           </div>
           <div className="exp__card">
@@ -137,10 +173,7 @@ function Experience() {
                         rel="noopener noreferrer"
                         title="Patent Link"
                         aria-label="Patent Link"
-                        style={{
-                          textDecoration: "underline",
-                          color: "inherit",
-                        }}
+                        className="project__links__highlight"
                       >
                         US2021165899A1
                       </a>

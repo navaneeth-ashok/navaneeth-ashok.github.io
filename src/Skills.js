@@ -14,7 +14,7 @@ function Skills() {
           <div className="skill__item">
             <img src={jsLogo} alt="Javascript" />
             <h3>Javascript</h3>
-            <p>React, Express, ES6, jQuery</p>
+            <p>Angular, RxJS, NgRx, React, Express</p>
           </div>
           <div className="skill__item">
             <img src={languagesLogo} alt="Programming Languages" />
@@ -24,8 +24,8 @@ function Skills() {
           </div>
           <div className="skill__item">
             <img src={cloudLogo} alt="Cloud" />
-            <h3>Cloud</h3>
-            <p>AWS, Azure, Google Cloud Platform</p>
+            <h3>Cloud & DevOps</h3>
+            <p>Azure, Google Cloud Platform, AWS</p>
           </div>
           <div className="skill__item">
             <img src={dbLogo} alt="Database" />

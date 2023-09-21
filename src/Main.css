@@ -276,7 +276,15 @@ p {
 }
 
 .about-image {
-  flex: 1.2 0 0;
+  flex: 1.2 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-image li a {
+  text-decoration: none;
 }
 
 ul.social-media-icons {
@@ -464,6 +472,10 @@ img.portfolio-thumbnail:hover {
   color: rgb(91, 238, 169);
 }
 
+a .important {
+  color: rgb(31 175 202);
+}
+
 .project__tech-list {
   list-style: none;
 }
@@ -475,9 +487,14 @@ img.portfolio-thumbnail:hover {
   font-style: italic;
 }
 
-.project__links {
-  /* position: absolute; */
+.project__links__highlight {
+  color: #53ecff;
+  text-decoration: none;
 }
+
+/* .project__links {
+  position: absolute; 
+} */
 .project__links__small {
   text-align: right;
 }

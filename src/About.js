@@ -13,11 +13,10 @@ function About() {
         <div className="flex-container-about">
           <div className="about-para">
             <p>
-              I'm a freelance web designer and developer, experienced in HTML,
-              CSS and JS. I'm passionate about building responsive, accessible
-              websites and applications. I have designed and developed web-apps
-              on modern web frameworks like{" "}
-              <span className="important">.NET Core</span> and{" "}
+              I'm a web designer and developer, experienced in HTML, CSS and JS.
+              I'm passionate about building responsive, accessible websites and
+              applications. I have designed and developed web-apps on modern web
+              frameworks like <span className="important">.NET Core</span> and{" "}
               <span className="important">Express</span> and front end libraries
               like <span className="important">React</span>.
             </p>
@@ -54,7 +53,19 @@ function About() {
             </div>
           </div>
           <div className="about-image">
-            <img src={authorPic} alt="author" />
+            <ul className="social-media-icons">
+              <li>
+                <a
+                  href={resumeFile}
+                  target="_blank"
+                  aria-label="Resume / CV"
+                  rel="noopener noreferrer"
+                  title="Resume / CV"
+                >
+                  <span className="important">Download Resume</span>
+                </a>
+              </li>
+            </ul>
             <ul className="social-media-icons">
               <li>
                 <a
@@ -71,37 +82,6 @@ function About() {
                   />
                 </a>
               </li>
-
-              <li>
-                <a
-                  href="https://500px.com/p/navaneeth_ashok/"
-                  target="_blank"
-                  aria-label="500px"
-                  rel="noopener noreferrer"
-                  title="500px"
-                >
-                  <img
-                    src={px500Logo}
-                    alt="500px logo"
-                    className="social-media icons"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.deviantart.com/navaneethsketch"
-                  target="_blank"
-                  aria-label="DeviantArt"
-                  rel="noopener noreferrer"
-                  title="DeviantArt"
-                >
-                  <img
-                    src={deviantLogo}
-                    alt="deviant logo"
-                    className="social-media icons"
-                  />
-                </a>
-              </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/navaneeth-ashok"
@@ -113,21 +93,6 @@ function About() {
                   <img
                     src={linkedinLogo}
                     alt="linkedin logo"
-                    className="social-media icons"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href={resumeFile}
-                  target="_blank"
-                  aria-label="Resume / CV"
-                  rel="noopener noreferrer"
-                  title="Resume / CV"
-                >
-                  <img
-                    src={resumeLogo}
-                    alt="resume logo"
                     className="social-media icons"
                   />
                 </a>
