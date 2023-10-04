@@ -168,14 +168,14 @@ function Experience() {
                     <div className="exp_title">
                       Co-authored a patent in USPTO (&nbsp;
                       <a
-                        href="https://www.patentguru.com/US2021165899A1"
+                        href="https://patents.google.com/patent/US11675920B2"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Patent Link"
                         aria-label="Patent Link"
                         className="project__links__highlight"
                       >
-                        US2021165899A1
+                        US11675920B2
                       </a>
                       &nbsp;) , titled 'Call Location Based Access Control of
                       Query to Database' to protect databases from unknown or
